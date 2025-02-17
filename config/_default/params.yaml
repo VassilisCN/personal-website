@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: dark
   color: sky
 
 
@@ -23,7 +23,7 @@ marketing:
     description: 'The personal academic website of Vassilis C. Nicodemou.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-7VQX58LC7J'
     baidu_tongji: ''
     plausible: ''
     fathom: ''

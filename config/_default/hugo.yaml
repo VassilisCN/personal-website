@@ -6,7 +6,7 @@
 # Website name
 title: Vassilis C. Nicodemou
 # Website URL
-baseURL: ''
+baseURL: 'https://users.ics.forth.gr/~nikodim/'
 
 ############################
 ## LANGUAGE
