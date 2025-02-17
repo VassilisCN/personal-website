@@ -1,0 +1,9 @@
+hugo --baseURL="https://users.ics.forth.gr/~nikodim/"
+
+In the index.html
+Fix the search bar:     Move  <div id="search" class="hidden p-3"></div>  inside the  <div class="page-body ">
+Fix technical skills:   Replace "1/2" with "1/1"
+Remove education from experience: Delete 2nd 1759,13: <div class="w-full"></div>
+Remove experience from education: Delete 3nd (now 2nd) 1759,13: <div class="w-full"></div>
+
+npx pagefind --site "public"

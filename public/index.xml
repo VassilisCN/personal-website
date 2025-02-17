@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vassilis C. Nicodemou</title>
+    <link>https://users.ics.forth.gr/~nikodim/</link>
+      <atom:link href="https://users.ics.forth.gr/~nikodim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vassilis C. Nicodemou</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>Vassilis C. Nicodemou</title>
+      <link>https://users.ics.forth.gr/~nikodim/</link>
+    </image>
+    
+    <item>
+      <title>Refraction-Aware Structure from Motion for Airborne Bathymetry</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/makris-2024-refraction/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/makris-2024-refraction/</guid>
+      <description>&lt;p&gt;In this work, we introduce the first pipeline that combines a refraction-aware structure from motion (SfM) method with a deep learning model specifically designed for airborne bathymetry. We accurately estimate the 3D positions of the submerged points by integrating refraction geometry within the SfM optimization problem. This way, no refraction correction as post-processing is required. Experiments with simulated data that approach real-world capturing conditions demonstrate that SfM with refraction correction is extremely accurate, with submillimeter errors. We integrate our refraction-aware SfM within a deep learning framework that also takes into account radiometrical information, developing a combined spectral and geometry-based approach, with further improvements in accuracy and robustness to different seafloor types, both textured and textureless. We conducted experiments with real-world data at two locations in the southern Mediterranean Sea, with varying seafloor types, which demonstrate the benefits of refraction correction for the deep learning framework. We made our refraction-aware SfM open source, providing researchers in airborne bathymetry with a practical tool to apply SfM in shallow water areas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</guid>
+      <description>&lt;p&gt;We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RV-VAE: Integrating Random Variable Algebra into Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</guid>
+      <description>&lt;p&gt;Among deep generative models, variational autoencoders (VAEs) are a central approach in generating new samples from a learned, latent space while effectively reconstructing input data. The original formulation requires a stochastic sampling operation, implemented via the reparameterization trick, to approximate a posterior latent distribution. In this paper, we introduce a novel approach that leverages the full distributions of encoded input to optimize the model over the entire range of the data, instead of discrete samples. We treat the encoded distributions as continuous random variables and use operations defined by the algebra of random variables during decoding. This approach integrates an innate mathematical prior into the model, helping to improve data efficiency and reduce computational load. Experimental results across different datasets and architectures confirm that this modification enhances VAE-based architectures&amp;rsquo;&amp;rsquo; performance. Specifically, our approach improves the reconstruction error and generative capabilities of several VAE architectures, as measured by the Frechet Inception Distance (FID) metric, while exhibiting similar or better training convergence behavior. Our method exemplifies the power of combining deep learning with inductive priors, promoting data efficiency and less reliance on brute-force learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integration of Photogrammetric and Spectral Techniques for Advanced Drone-Based Bathymetry Retrieval Using a Deep Learning Approach</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/alevizos-2022-integration/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/alevizos-2022-integration/</guid>
+      <description>&lt;p&gt;Shallow bathymetry mapping using proximal sensing techniques is an active field of research that offers a new perspective in studying the seafloor. Drone-based imagery with centimeter resolution allows for bathymetry retrieval in unprecedented detail in areas with adequate water transparency. The majority of studies apply either spectral or photogrammetric techniques for deriving bathymetry from remotely sensed imagery. However, spectral methods require a certain amount of ground-truth depth data for model calibration, while photogrammetric methods cannot perform on texture-less seafloor types. The presented approach takes advantage of the interrelation of the two methods, in order to predict bathymetry in a more efficient way. Thus, we combine structure-from-motion (SfM) outputs along with band-ratios of radiometrically corrected drone images within a specially designed deep convolutional neural network (CNN) that outputs a reliable and robust bathymetry estimation. To achieve effective training of our deep learning system, we utilize interpolated uncrewed surface vehicle (USV) sonar measurements. We perform several predictions at three locations in the southern Mediterranean Sea, with varying seafloor types. Our results show low root-mean-square errors over all study areas (average RMSE ≅ 0.3 m), when the method was trained and tested on the same area each time. In addition, we obtain promising cross-validation performance across different study areas (average RMSE ≅ 0.9 m), which demonstrates the potential of our proposed approach in terms of generalization capabilities on unseen data. Furthermore, areas with mixed seafloor types are suitable for building a model that can be applied in similar locations where only drone data is available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning to infer the depth map of a hand from its color image</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-learning/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-learning/</guid>
+      <description>&lt;p&gt;We present the first direct approach targeted explicitly on human hands that infers depth from monocular RGB images. We achieve this with a Convolutional Neural Network (CNN) that employs a stacked hourglass model as its main building block. Intermediate supervision is used in several outputs of the proposed architecture in a staged approach. To aid the process of training and inference, hand segmentation masks are also estimated in such intermediate supervision steps, and used to guide the subsequent depth estimation process. In order to train and evaluate the proposed method we compile and make publicly available HandRGBD, a new dataset of 20,601 views of hands, each consisting of an RGB image and an aligned depth map. Based on HandRGBD, we explore variants of the proposed approach in an ablative study and determine the most accurate one. The results of an extensive experimental evaluation demonstrate that hand depth estimation from a single RGB frame can be achieved with an accuracy of 22mm, which is comparable to the accuracy achieved by contemporary low-cost depth cameras. Such a 3D reconstruction of hands based on RGB information is valuable as a final result on its own right, but also as an input to several other hand analysis and perception algorithms that require depth input. In this context, the proposed approach bridges the gap between RGB and RGBD, by making all existing RGBD-based methods applicable to RGB input.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ambient intelligence in the living room</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/leonidis-2019-ambient/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/leonidis-2019-ambient/</guid>
+      <description>&lt;p&gt;The emergence of the Ambient Intelligence (AmI) paradigm and the proliferation of Internet of Things (IoT) devices and services unveiled new potentials for the domain of domestic living, where the line between “the computer” and the (intelligent) environment becomes altogether invisible. Particularly, the residents of a house can use the living room not only as a traditional social and individual space where many activities take place, but also as a smart ecosystem that (a) enhances leisure activities by providing a rich suite of entertainment applications, (b) implements a home control middleware, (c) acts as an intervention host that is able to display appropriate content when the users need help or support, (d) behaves as an intelligent agent that communicates with the users in a natural manner and assists them throughout their daily activities, (e) presents a notification hub that provides personalized alerts according to contextual information, and (f) becomes an intermediary communication center for the family. This paper (i) describes how the “Intelligent Living Room” realizes these newly emerged roles, (ii) presents the process that was followed in order to design the living room environment, (iii) introduces the hardware and software facilities that were developed in order to improve quality of life, and (iv) reports the findings of various evaluation experiments conducted to assess the overall User Experience (UX).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-shot 3D hand pose estimation using radial basis function networks trained on synthetic data</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-single/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-single/</guid>
+      <description>&lt;p&gt;In this work, we present a novel framework to perform single-shot hand pose estimation using depth data as input. The method follows a coarse to fine strategy and employs several radial basis function networks (RBFNs) that are trained on a dataset containing only synthetically generated depth maps. Thus, compared to most contemporary deep learning approaches, it does not require the laborious annotation of large, real-world datasets. At run time, an initialization RBFN is used to provide a rough estimation of the hand’s 3D pose. Subsequently, several specialized RBFNs are employed to improve that initial estimation in an iterative refinement scheme. To train the RBFNs, we select a set of hand poses from a real-world sequence that are as diverse as possible. We use this representative set, along with a dense sampling of all possible rotations, as a seed to generate a large synthetic training set. The method is parallelizable, taking advantage of the inherent data parallelism of RBFNs. Furthermore, the method requires few real-world data and virtually no manual annotation. We perform a quantitative evaluation of our method on a testing sequence of our own. We also present quantitative and qualitative results on a public dataset that is commonly used to evaluate hand pose estimation and tracking methods. We show that in all cases, our approach achieves promising results. Moreover, it can achieve comparable or even faster computational performance than current deep learning approaches but on a single CPU core, i.e., without requiring GPU processing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

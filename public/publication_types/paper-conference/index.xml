@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Vassilis C. Nicodemou</title>
+    <link>https://users.ics.forth.gr/~nikodim/publication_types/paper-conference/</link>
+      <atom:link href="https://users.ics.forth.gr/~nikodim/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>Paper-Conference</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</guid>
+      <description>&lt;p&gt;We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RV-VAE: Integrating Random Variable Algebra into Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</guid>
+      <description>&lt;p&gt;Among deep generative models, variational autoencoders (VAEs) are a central approach in generating new samples from a learned, latent space while effectively reconstructing input data. The original formulation requires a stochastic sampling operation, implemented via the reparameterization trick, to approximate a posterior latent distribution. In this paper, we introduce a novel approach that leverages the full distributions of encoded input to optimize the model over the entire range of the data, instead of discrete samples. We treat the encoded distributions as continuous random variables and use operations defined by the algebra of random variables during decoding. This approach integrates an innate mathematical prior into the model, helping to improve data efficiency and reduce computational load. Experimental results across different datasets and architectures confirm that this modification enhances VAE-based architectures&amp;rsquo;&amp;rsquo; performance. Specifically, our approach improves the reconstruction error and generative capabilities of several VAE architectures, as measured by the Frechet Inception Distance (FID) metric, while exhibiting similar or better training convergence behavior. Our method exemplifies the power of combining deep learning with inductive priors, promoting data efficiency and less reliance on brute-force learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning to infer the depth map of a hand from its color image</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-learning/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-learning/</guid>
+      <description>&lt;p&gt;We present the first direct approach targeted explicitly on human hands that infers depth from monocular RGB images. We achieve this with a Convolutional Neural Network (CNN) that employs a stacked hourglass model as its main building block. Intermediate supervision is used in several outputs of the proposed architecture in a staged approach. To aid the process of training and inference, hand segmentation masks are also estimated in such intermediate supervision steps, and used to guide the subsequent depth estimation process. In order to train and evaluate the proposed method we compile and make publicly available HandRGBD, a new dataset of 20,601 views of hands, each consisting of an RGB image and an aligned depth map. Based on HandRGBD, we explore variants of the proposed approach in an ablative study and determine the most accurate one. The results of an extensive experimental evaluation demonstrate that hand depth estimation from a single RGB frame can be achieved with an accuracy of 22mm, which is comparable to the accuracy achieved by contemporary low-cost depth cameras. Such a 3D reconstruction of hands based on RGB information is valuable as a final result on its own right, but also as an input to several other hand analysis and perception algorithms that require depth input. In this context, the proposed approach bridges the gap between RGB and RGBD, by making all existing RGBD-based methods applicable to RGB input.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

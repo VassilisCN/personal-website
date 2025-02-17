@@ -24,7 +24,9 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ICS-FORTH
+  # - name: Computer Vision & Robotics Lab
+  #   url:  https://www.ics.forth.gr/cvrl
+  - name: Institute of Computer Science, FORTH
     url: https://ics.forth.gr/
 
 # Social network links
@@ -49,104 +51,123 @@ profiles:
 interests:
   - Artificial Intelligence
   - Computational Vision
+  - Vision-based Human-Computer Interaction
 
 education:
-  - area: PhD Computer Science
+  - area: Ph.D. in Computer Science
     institution: University of Crete
-    date_start: 2018
-    date_end: 2025
+    date_start: 2018-02-01
+    date_end: 2025-02-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      During my studies I recieved a scholarship by the Hellenic Foundation for Research and Innovation (HFRI) under the HFRI Ph.D. Fellowship grant (Fellowship Number: 803). The research of this dissertation was also supported by the VMware University Research Fund (VMURF).
+
+      The topic of my dissertation was _Multi-Domain Inference and Generative Modeling for Hand Image Synthesis_. Supervised by [Prof Antonis Argyros](https://ics.forth.gr/~argyros).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: uploads/PhD_Thesis_Nicodemou.pdf
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Sc. in Computer Science and Computer Engineering
+    institution: University of Crete
+    date_start: 2015-02-01
+    date_end: 2018-02-01
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Specialized on:
+      - Cognitive and Computational Vision and Robotics,
+      - Algorithms and System Analysis
+
+      Thesis on _Single Shot 3D Hand Pose Estimation Using Radial Basis Function Networks Trained on Synthetic Data_. Supervised by [Prof Antonis Argyros](https://ics.forth.gr/~argyros).
+    button:
+      text: 'Read Thesis'
+      url: uploads/thesis.pdf
+
+  - area: Computer Science Degree
+    institution: University of Crete
+    date_start: 2010-09-01
+    date_end: 2015-02-01
+    
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Postdoctoral Researcher
+    company_name: ICS - FORTH
+    company_url: www.ics.forth.gr
+    company_logo: icons/ics.png
+    date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      
 
+  - position: Graduate Research Assistant (Ph.D. student position)
+    company_name: ICS - FORTH
+    company_url: www.ics.forth.gr
+    company_logo: 'icons/ics.png'
+    date_start: 2018-03-01
+    date_end: 2024-12-31
+    summary: |
+      - Research and study the domain of Artificial Neural Networks and its applications in order to optimize their performance, by using probabilistic models and representation learning
+      - Study, investigate and analyze aspects of human hands, such as depth from color reconstruction and pose estimation with the use of Artificial Neural Networks
+      - Contribution to projects of the Computer Vision and Robotics Laboratory: Co4Robots, HealthSign, SignGuide, I.C.Human, ACTYS
+
+  - position: Teaching Assistant
+    company_name: University of Crete
+    company_url: www.csd.uoc.gr
+    company_logo: 'icons/ics.png'
+    date_start: 2015-03-01
+    date_end: 2024-12-31
+    summary: |
+      For the following courses: CS-110 Calculus I, CS-111 Calculus II, CS-118 Discrete Mathematics, CS-150 Programming, CS-225 Computer Organization, CS-240 Data Structures, CS-672 Advanced Topics in Computational Vision.
+
+  - position: Graduate Research Assistant (M.Sc. student position)
+    company_name: ICS - FORTH
+    company_url: www.ics.forth.gr
+    company_logo: 'icons/ics.png'
+    date_start: 2015-03-01
+    date_end: 2018-02-01
+    summary: |
+      - Design, implementation and experimental evaluation of methods that focus on 3D hand pose estimation with with the use of Radial Basis Function Networks
+      - Contribution to projects of the Computer Vision and Robotics Laboratory: Co4Robots
+  
+  - position: Undergraduate Research Assistant
+    company_name: ICS - FORTH
+    company_url: www.ics.forth.gr
+    company_logo: 'icons/ics.png'
+    date_start: 2014-06-01
+    date_end: 2015-02-01
+    summary: |
+      - Design and implementation of a virtual touch operated surface, using 3D hand tracking
+      - Introduction to research and the field of Computer Vision
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+    - name: Python
+      description: ''
+      percent: 100
+      icon: code-bracket
+    - name: OpenCV
+      description: ''
+      percent: 100
+      icon: code-bracket
+    - name: PyTorch
+      description: ''
+      percent: 95
+      icon: code-bracket
+    - name: Data Science
+      description: ''
+      percent: 100
+      icon: chart-bar
+    - name: SQL
+      description: ''
+      percent: 40
+      icon: circle-stack
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -154,32 +175,31 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    # url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+    # icon: coursera
+    # summary: |
+    #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    # url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+    # icon: edx
+    # summary: |
+    #   Learned:
+    #   - Synthesize your own blockchain solutions
+    #   - Gain an in-depth understanding of the specific mechanics of Bitcoin
+    #   - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
   - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
+    # url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    # certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    # icon: datacamp
+    # summary: |
+    #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a Postdoctoral Researcher at the [Computer Vision and Robotics Lab (CVRL)](https://www.ics.forth.gr/cvrl/) of the [Institute of Computer Science, FORTH](https://www.ics.forth.gr/), collaboration with [Prof. Antonis Argyros](https://ics.forth.gr/~argyros). My research interests include the domain of Artificial Neural Networks, Human Pose Estimation, and Vision-based Human-Computer Interaction.

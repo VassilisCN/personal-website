@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vision-Based Human-Computer Interaction | Vassilis C. Nicodemou</title>
+    <link>https://users.ics.forth.gr/~nikodim/tags/vision-based-human-computer-interaction/</link>
+      <atom:link href="https://users.ics.forth.gr/~nikodim/tags/vision-based-human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vision-Based Human-Computer Interaction</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>Vision-Based Human-Computer Interaction</title>
+      <link>https://users.ics.forth.gr/~nikodim/tags/vision-based-human-computer-interaction/</link>
+    </image>
+    
+    <item>
+      <title>Ambient intelligence in the living room</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/leonidis-2019-ambient/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/leonidis-2019-ambient/</guid>
+      <description>&lt;p&gt;The emergence of the Ambient Intelligence (AmI) paradigm and the proliferation of Internet of Things (IoT) devices and services unveiled new potentials for the domain of domestic living, where the line between “the computer” and the (intelligent) environment becomes altogether invisible. Particularly, the residents of a house can use the living room not only as a traditional social and individual space where many activities take place, but also as a smart ecosystem that (a) enhances leisure activities by providing a rich suite of entertainment applications, (b) implements a home control middleware, (c) acts as an intervention host that is able to display appropriate content when the users need help or support, (d) behaves as an intelligent agent that communicates with the users in a natural manner and assists them throughout their daily activities, (e) presents a notification hub that provides personalized alerts according to contextual information, and (f) becomes an intermediary communication center for the family. This paper (i) describes how the “Intelligent Living Room” realizes these newly emerged roles, (ii) presents the process that was followed in order to design the living room environment, (iii) introduces the hardware and software facilities that were developed in order to improve quality of life, and (iv) reports the findings of various evaluation experiments conducted to assess the overall User Experience (UX).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2494 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 17, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Vassilis C. Nicodemou" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The personal academic website of Vassilis C. Nicodemou." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://users.ics.forth.gr/~nikodim/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/~nikodim/css/themes/sky.min.css" />
+  
+
+  
+  
+    
+    <link href="/~nikodim/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+    
+    <link href="/~nikodim/css/custom.min.26fbaa44c1ab656b0696daee1185feb5fac215e2245002dc59dc3e49ac23b938.css" rel="stylesheet" />
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/~nikodim/index.xml" type="application/rss+xml" title="Vassilis C. Nicodemou" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/~nikodim/media/icon_hu_1b92626950be156e.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/~nikodim/media/icon_hu_d30256de4ed1f5c5.png" />
+
+  <link rel="canonical" href="https://users.ics.forth.gr/~nikodim/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Vassilis C. Nicodemou" />
+  <meta property="og:url" content="https://users.ics.forth.gr/~nikodim/" />
+  <meta property="og:title" content="Vassilis C. Nicodemou" />
+  <meta property="og:description" content="The personal academic website of Vassilis C. Nicodemou." /><meta property="og:image" content="https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png" />
+    <meta property="twitter:image" content="https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://users.ics.forth.gr/~nikodim/"
+}
+</script>
+
+
+  
+
+
+  <title>Vassilis C. Nicodemou</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/~nikodim/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/~nikodim/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/~nikodim/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/~nikodim/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/~nikodim/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+<style>
+    table {
+        border-collapse: unset;
+        border: none;
+      }
+</style>
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/~nikodim/" title="Vassilis C. Nicodemou">
+        Vassilis C. Nicodemou
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#about"
+        >About Me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#research"
+        >Research</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#experience"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#projects"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#education"
+        >Education</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/~nikodim/#contact"
+        >Contact Info</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+      <div id="search" class="hidden p-3"></div>
+
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="relative hbb-section blox-resume-biography-3  dark" style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg  bg-image parallax" style="background-color: black;background-image: url(&#39;https://users.ics.forth.gr/~nikodim/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(1);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
+  
+
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/~nikodim/author/vassilis-c.-nicodemou/avatar_hu_9f4ffb50628a2b7b.JPG" alt="Vassilis C. Nicodemou"
+           width="150" height="150">
+      
+    </div>
+    
+
+    <div class="portrait-title dark:text-white">
+
+      <div class="text-3xl font-bold mb-2 mt-6">Vassilis C. Nicodemou</div>
+
+      <h3 class="font-semibold mb-1">Postdoctoral Researcher</h3>
+
+      
+      <div class="mb-2">
+        <a href="https://ics.forth.gr/" target="_blank" rel="noopener">
+        <div>Institute of Computer Science, FORTH</div>
+        </a>
+      </div>
+      
+    </div>
+
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:nikodim@ics.forth.gr"  aria-label="at-symbol"
+            data-toggle="tooltip" data-placement="top" title="E-mail Me">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://github.com/VassilisCN" target="_blank" rel="noopener" aria-label="brands/github"
+           >
+          <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://www.linkedin.com/in/vcnikodim" target="_blank" rel="noopener" aria-label="brands/linkedin"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.gr/citations?user=uro9mQ0AAAAJ" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://orcid.org/0000-0001-8523-6749" target="_blank" rel="noopener" aria-label="academicons/orcid"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  <div class="flex-auto max-w-prose md:mt-12">
+    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h2 id="about-me">About Me</h2>
+<p>I am currently a Postdoctoral Researcher at the <a href="https://www.ics.forth.gr/cvrl/" target="_blank" rel="noopener">Computer Vision and Robotics Lab (CVRL)</a> of the <a href="https://www.ics.forth.gr/" target="_blank" rel="noopener">Institute of Computer Science, FORTH</a>, collaborating with <a href="https://ics.forth.gr/~argyros" target="_blank" rel="noopener">Prof. Antonis Argyros</a>. My research interests include the domain of Artificial Neural Networks, Human Pose Estimation, and Vision-based Human-Computer Interaction.</p>
+
+      </div>
+    </div>
+    
+
+    
+
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
+        
+        <li>
+          Artificial Intelligence
+        </li>
+        
+        <li>
+          Computational Vision
+        </li>
+        
+        <li>
+          Vision-based Human-Computer Interaction
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Ph.D. in Computer Science</p>
+            <p class="text-sm">University of Crete</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">M.Sc. in Computer Science and Computer Engineering</p>
+            <p class="text-sm">University of Crete</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Computer Science Degree</p>
+            <p class="text-sm">University of Crete</p>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="research" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Research
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
+  <div class="grid gap-10 md:grid-cols-3 lg:gap-10">
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/makris-2024-refraction/" >
+
+      <img alt="Refraction-Aware Structure from Motion for Airborne Bathymetry"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/~nikodim/publication/makris-2024-refraction/featured_hu_c3b92aa8008d62f3.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="905"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/artificial-inteligence/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Artificial Inteligence</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/makris-2024-refraction/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Refraction-Aware Structure from Motion for Airborne Bathymetry
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/makris-2024-refraction/" >
+        In this work, we introduce the first pipeline that combines a refraction-aware structure from motion (SfM) method with a deep learning model specifically designed for airborne bathymetry. We accurately estimate the 3D positions of the submerged points by integrating refraction geometry within the SfM optimization problem. This way, no refraction correction as post-processing is required. Experiments with simulated data that approach real-world capturing conditions demonstrate that SfM with refraction correction is extremely accurate, with submillimeter errors. We integrate our refraction-aware SfM within a deep learning framework that also takes into account radiometrical information, developing a combined spectral and geometry-based approach, with further improvements in accuracy and robustness to different seafloor types, both textured and textureless. We conducted experiments with real-world data at two locations in the southern Mediterranean Sea, with varying seafloor types, which demonstrate the benefits of refraction correction for the deep learning framework. We made our refraction-aware SfM open source, providing researchers in airborne bathymetry with a practical tool to apply SfM in shallow water areas.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2024-11-15">November 15, 2024</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/nicodemou-2024-conditional/" >
+
+      <img alt="Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="388" loading="lazy" src="/~nikodim/publication/nicodemou-2024-conditional/featured_hu_203746e387cb6f39.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/artificial-inteligence/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Artificial Inteligence</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/nicodemou-2024-conditional/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/nicodemou-2024-conditional/" >
+        We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2024-09-30">September 30, 2024</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/nicodemou-2023-rv/" >
+
+      <img alt="RV-VAE: Integrating Random Variable Algebra into Variational Autoencoders"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/~nikodim/publication/nicodemou-2023-rv/featured_hu_bcb25d507148aa0.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/artificial-inteligence/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Artificial Inteligence</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/nicodemou-2023-rv/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">RV-VAE: Integrating Random Variable Algebra into Variational Autoencoders
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/nicodemou-2023-rv/" >
+        Among deep generative models, variational autoencoders (VAEs) are a central approach in generating new samples from a learned, latent space while effectively reconstructing input data. The original formulation requires a stochastic sampling operation, implemented via the reparameterization trick, to approximate a posterior latent distribution. In this paper, we introduce a novel approach that leverages the full distributions of encoded input to optimize the model over the entire range of the data, instead of discrete samples. We treat the encoded distributions as continuous random variables and use operations defined by the algebra of random variables during decoding. This approach integrates an innate mathematical prior into the model, helping to improve data efficiency and reduce computational load. Experimental results across different datasets and architectures confirm that this modification enhances VAE-based architectures’’ performance. Specifically, our approach improves the reconstruction error and generative capabilities of several VAE architectures, as measured by the Frechet Inception Distance (FID) metric, while exhibiting similar or better training convergence behavior. Our method exemplifies the power of combining deep learning with inductive priors, promoting data efficiency and less reliance on brute-force learning.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2023-10-01">October 1, 2023</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/alevizos-2022-integration/" >
+
+      <img alt="Integration of Photogrammetric and Spectral Techniques for Advanced Drone-Based Bathymetry Retrieval Using a Deep Learning Approach"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="331" loading="lazy" src="/~nikodim/publication/alevizos-2022-integration/featured_hu_e6b3c00b1ed03c20.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/artificial-inteligence/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Artificial Inteligence</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/alevizos-2022-integration/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Integration of Photogrammetric and Spectral Techniques for Advanced Drone-Based Bathymetry Retrieval Using a Deep Learning Approach
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/alevizos-2022-integration/" >
+        Shallow bathymetry mapping using proximal sensing techniques is an active field of research that offers a new perspective in studying the seafloor. Drone-based imagery with centimeter resolution allows for bathymetry retrieval in unprecedented detail in areas with adequate water transparency. The majority of studies apply either spectral or photogrammetric techniques for deriving bathymetry from remotely sensed imagery. However, spectral methods require a certain amount of ground-truth depth data for model calibration, while photogrammetric methods cannot perform on texture-less seafloor types. The presented approach takes advantage of the interrelation of the two methods, in order to predict bathymetry in a more efficient way. Thus, we combine structure-from-motion (SfM) outputs along with band-ratios of radiometrically corrected drone images within a specially designed deep convolutional neural network (CNN) that outputs a reliable and robust bathymetry estimation. To achieve effective training of our deep learning system, we utilize interpolated uncrewed surface vehicle (USV) sonar measurements. We perform several predictions at three locations in the southern Mediterranean Sea, with varying seafloor types. Our results show low root-mean-square errors over all study areas (average RMSE ≅ 0.3 m), when the method was trained and tested on the same area each time. In addition, we obtain promising cross-validation performance across different study areas (average RMSE ≅ 0.9 m), which demonstrates the potential of our proposed approach in terms of generalization capabilities on unseen data. Furthermore, areas with mixed seafloor types are suitable for building a model that can be applied in similar locations where only drone data is available.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2022-08-24">August 24, 2022</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/nicodemou-2020-learning/" >
+
+      <img alt="Learning to infer the depth map of a hand from its color image"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/~nikodim/publication/nicodemou-2020-learning/featured_hu_5be37f5f55a280de.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="552"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/artificial-inteligence/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Artificial Inteligence</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/nicodemou-2020-learning/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Learning to infer the depth map of a hand from its color image
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/nicodemou-2020-learning/" >
+        We present the first direct approach targeted explicitly on human hands that infers depth from monocular RGB images. We achieve this with a Convolutional Neural Network (CNN) that employs a stacked hourglass model as its main building block. Intermediate supervision is used in several outputs of the proposed architecture in a staged approach. To aid the process of training and inference, hand segmentation masks are also estimated in such intermediate supervision steps, and used to guide the subsequent depth estimation process. In order to train and evaluate the proposed method we compile and make publicly available HandRGBD, a new dataset of 20,601 views of hands, each consisting of an RGB image and an aligned depth map. Based on HandRGBD, we explore variants of the proposed approach in an ablative study and determine the most accurate one. The results of an extensive experimental evaluation demonstrate that hand depth estimation from a single RGB frame can be achieved with an accuracy of 22mm, which is comparable to the accuracy achieved by contemporary low-cost depth cameras. Such a 3D reconstruction of hands based on RGB information is valuable as a final result on its own right, but also as an input to several other hand analysis and perception algorithms that require depth input. In this context, the proposed approach bridges the gap between RGB and RGBD, by making all existing RGBD-based methods applicable to RGB input.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2020-07-20">July 20, 2020</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/~nikodim/publication/leonidis-2019-ambient/" >
+
+      <img alt="Ambient intelligence in the living room"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/~nikodim/publication/leonidis-2019-ambient/featured_hu_bb8b70ab8660d198.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="718"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/~nikodim/tags/vision-based-human-computer-interaction/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Vision-Based Human-Computer Interaction</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/~nikodim/publication/leonidis-2019-ambient/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Ambient intelligence in the living room
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/~nikodim/publication/leonidis-2019-ambient/" >
+        The emergence of the Ambient Intelligence (AmI) paradigm and the proliferation of Internet of Things (IoT) devices and services unveiled new potentials for the domain of domestic living, where the line between “the computer” and the (intelligent) environment becomes altogether invisible. Particularly, the residents of a house can use the living room not only as a traditional social and individual space where many activities take place, but also as a smart ecosystem that (a) enhances leisure activities by providing a rich suite of entertainment applications, (b) implements a home control middleware, (c) acts as an intervention host that is able to display appropriate content when the users need help or support, (d) behaves as an intelligent agent that communicates with the users in a natural manner and assists them throughout their daily activities, (e) presents a notification hub that provides personalized alerts according to contextual information, and (f) becomes an intermediary communication center for the family. This paper (i) describes how the “Intelligent Living Room” realizes these newly emerged roles, (ii) presents the process that was followed in order to design the living room environment, (iii) introduces the hardware and software facilities that were developed in order to improve quality of life, and (iv) reports the findings of various evaluation experiments conducted to assess the overall User Experience (UX).</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2019-11-16">November 16, 2019</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/~nikodim/publication/">
+          <span>See all publications</span>
+        </a>
+      </div>
+  </div>
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="experience" class="relative hbb-section blox-resume-experience  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto">
+
+
+
+
+
+<div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 ">
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Experience</h3>
+  <ol class="relative border-s border-gray-200 dark:border-gray-700">
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Postdoctoral Researcher
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">ICS - FORTH</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          2025 –
+        
+        
+          Present
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"></div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Graduate Research Assistant (Ph.D. student position)
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">ICS - FORTH</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          2018 –
+        
+        
+          2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li>Research and study the domain of Artificial Neural Networks and its applications in order to optimize their performance, by using probabilistic models and representation learning</li>
+<li>Study, investigate and analyze aspects of human hands, such as depth from color reconstruction and pose estimation with the use of Artificial Neural Networks</li>
+<li>Contribution to projects of the Computer Vision and Robotics Laboratory: Co4Robots, HealthSign, SignGuide, I.C.Human, ACTYS</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Teaching Assistant
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Crete</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          2015 –
+        
+        
+          2024
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert">For the following courses: CS-110 Calculus I, CS-111 Calculus II, CS-118 Discrete Mathematics, CS-150 Programming, CS-225 Computer Organization, CS-240 Data Structures, CS-672 Advanced Topics in Computational Vision.</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Graduate Research Assistant (M.Sc. student position)
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">ICS - FORTH</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          2015 –
+        
+        
+          2018
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li>Design, implementation and experimental evaluation of methods that focus on 3D hand pose estimation with with the use of Radial Basis Function Networks</li>
+<li>Contribution to projects of the Computer Vision and Robotics Laboratory: Co4Robots</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">Undergraduate Research Assistant
+        
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">ICS - FORTH</span>
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        
+          2014 –
+        
+        
+          2015
+        
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
+<li>Design and implementation of a virtual touch operated surface, using 3D hand tracking</li>
+<li>Introduction to research and the field of Computer Vision</li>
+</ul>
+</div>
+
+      
+
+    </li>
+    
+  </ol>
+</div>
+
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="projects" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Projects
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>I have participated and contributed in the following projects:</p>
+<ul>
+<li><strong><a href="https://sites.google.com/view/ichumans/home" target="_blank" rel="noopener">I.C.Humans</a></strong>: 2023 - Present</li>
+<li><strong><a href="https://actys.ims.forth.gr/" target="_blank" rel="noopener">ACTYS</a></strong>: 2022 - 2024</li>
+</ul></div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="education" class="relative hbb-section blox-resume-experience  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto">
+
+
+
+
+
+<div class="flex flex-col lg:gap-x-6 w-100 px-6 sm:px-0 flex-col-reverse">
+
+
+
+
+
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">Education</h3>
+    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Ph.D. in Computer Science
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Crete</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            February 2018 –
+          
+          
+            February 2025
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>During my studies I recieved a scholarship by the Hellenic Foundation for Research and Innovation (HFRI) under the HFRI Ph.D. Fellowship grant (Fellowship Number: 803). The research of this dissertation was also supported by the VMware University Research Fund (VMURF).</p>
+<p>The topic of my dissertation was <em>Multi-Domain Inference and Generative Modeling for Hand Image Synthesis</em>. Supervised by <a href="https://ics.forth.gr/~argyros" target="_blank" rel="noopener">Prof Antonis Argyros</a>.</p>
+</div>
+
+        
+        <a href="uploads/PhD_Thesis_Nicodemou.pdf" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+          <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+        </svg> Read Thesis</a>
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">M.Sc. in Computer Science and Computer Engineering
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Crete</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            February 2015 –
+          
+          
+            February 2018
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><p>Specialized on:</p>
+<ul>
+<li>Cognitive and Computational Vision and Robotics,</li>
+<li>Algorithms and System Analysis</li>
+</ul>
+<p>Thesis on <em>Single Shot 3D Hand Pose Estimation Using Radial Basis Function Networks Trained on Synthetic Data</em>. Supervised by <a href="https://ics.forth.gr/~argyros" target="_blank" rel="noopener">Prof Antonis Argyros</a>.</p>
+</div>
+
+        
+        <a href="uploads/thesis.pdf" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+          <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+        </svg> Read Thesis</a>
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Computer Science Degree
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">University of Crete</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            September 2010 –
+          
+          
+            February 2015
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"></div>
+
+        
+
+      </li>
+      
+    </ol>
+</div>
+
+
+</div>
+
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Contact Info
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>Feel free to <a href="mailto:nikodim@ics.forth.gr">e-mail</a> me.</p>
+<table borderwidth="0">
+<tbody>
+<tr><td width="15%"><strong>Address:</strong></td><td>Institute of Computer Science, <br>Foundation for Research and Technology - Hellas <br>N. Plastira 100, Vassilika Vouton, GR-700 13 <br>Heraklion, Crete, Greece</td></tr>
+<tr><td><strong>Building:</strong></ul></td><td>AMI facilities</td></tr>
+<tr><td><strong>Office:</strong></ul></td><td>2.16</td></tr>
+<tr><td><strong>Phone:</strong></td><td>+30 2811 392540</td></tr>
+</tbody></table></div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    
+        function setActiveLink() {
+            let scrollPosition = window.scrollY + 100; 
+    
+            sections.forEach((section) => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                const id = section.getAttribute("id");
+    
+                if (scrollPosition >= top && scrollPosition < top + height) {
+                    navLinks.forEach((link) => {
+                        link.classList.remove("active");
+                        if (link.getAttribute("href") === `/~nikodim/#${id}`) {
+                            link.classList.add("active");
+                        }
+                    });
+                }
+            });
+        }
+    
+        window.addEventListener("scroll", setActiveLink);
+        setActiveLink(); 
+    });
+    
+</script> 
+<style>
+    .navbar-nav .nav-link.active {
+        color: #38bdf8;
+    }
+</style>
+      
+    
+  
+
+
+
+
+  </body>
+</html>

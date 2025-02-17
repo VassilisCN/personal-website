@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random Variable Modules | Vassilis C. Nicodemou</title>
+    <link>https://users.ics.forth.gr/~nikodim/tags/random-variable-modules/</link>
+      <atom:link href="https://users.ics.forth.gr/~nikodim/tags/random-variable-modules/index.xml" rel="self" type="application/rss+xml" />
+    <description>Random Variable Modules</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>Random Variable Modules</title>
+      <link>https://users.ics.forth.gr/~nikodim/tags/random-variable-modules/</link>
+    </image>
+    
+    <item>
+      <title>Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</guid>
+      <description>&lt;p&gt;We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RV-VAE: Integrating Random Variable Algebra into Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2023-rv/</guid>
+      <description>&lt;p&gt;Among deep generative models, variational autoencoders (VAEs) are a central approach in generating new samples from a learned, latent space while effectively reconstructing input data. The original formulation requires a stochastic sampling operation, implemented via the reparameterization trick, to approximate a posterior latent distribution. In this paper, we introduce a novel approach that leverages the full distributions of encoded input to optimize the model over the entire range of the data, instead of discrete samples. We treat the encoded distributions as continuous random variables and use operations defined by the algebra of random variables during decoding. This approach integrates an innate mathematical prior into the model, helping to improve data efficiency and reduce computational load. Experimental results across different datasets and architectures confirm that this modification enhances VAE-based architectures&amp;rsquo;&amp;rsquo; performance. Specifically, our approach improves the reconstruction error and generative capabilities of several VAE architectures, as measured by the Frechet Inception Distance (FID) metric, while exhibiting similar or better training convergence behavior. Our method exemplifies the power of combining deep learning with inductive priors, promoting data efficiency and less reliance on brute-force learning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

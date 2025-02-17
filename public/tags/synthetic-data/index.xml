@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic Data | Vassilis C. Nicodemou</title>
+    <link>https://users.ics.forth.gr/~nikodim/tags/synthetic-data/</link>
+      <atom:link href="https://users.ics.forth.gr/~nikodim/tags/synthetic-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synthetic Data</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://users.ics.forth.gr/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>Synthetic Data</title>
+      <link>https://users.ics.forth.gr/~nikodim/tags/synthetic-data/</link>
+    </image>
+    
+    <item>
+      <title>Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2024-conditional/</guid>
+      <description>&lt;p&gt;We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-shot 3D hand pose estimation using radial basis function networks trained on synthetic data</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-single/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/nicodemou-2020-single/</guid>
+      <description>&lt;p&gt;In this work, we present a novel framework to perform single-shot hand pose estimation using depth data as input. The method follows a coarse to fine strategy and employs several radial basis function networks (RBFNs) that are trained on a dataset containing only synthetically generated depth maps. Thus, compared to most contemporary deep learning approaches, it does not require the laborious annotation of large, real-world datasets. At run time, an initialization RBFN is used to provide a rough estimation of the hand’s 3D pose. Subsequently, several specialized RBFNs are employed to improve that initial estimation in an iterative refinement scheme. To train the RBFNs, we select a set of hand poses from a real-world sequence that are as diverse as possible. We use this representative set, along with a dense sampling of all possible rotations, as a seed to generate a large synthetic training set. The method is parallelizable, taking advantage of the inherent data parallelism of RBFNs. Furthermore, the method requires few real-world data and virtually no manual annotation. We perform a quantitative evaluation of our method on a testing sequence of our own. We also present quantitative and qualitative results on a public dataset that is commonly used to evaluate hand pose estimation and tracking methods. We show that in all cases, our approach achieves promising results. Moreover, it can achieve comparable or even faster computational performance than current deep learning approaches but on a single CPU core, i.e., without requiring GPU processing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
