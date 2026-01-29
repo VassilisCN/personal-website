@@ -1,3 +1,4 @@
+hugo server #To test locally
 hugo --baseURL="https://users.ics.forth.gr/~nikodim/"
 
 In the index.html

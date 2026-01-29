@@ -76,7 +76,9 @@ sections:
       text: |-
         I have participated and contributed in the following projects:
 
-        - **[I.C.Humans](https://sites.google.com/view/ichumans/home)**: 2023 - Present
+        - **CARAML**: 2025 - Present
+        - **[Greece4.0](https://greece40.gr/)**: 2024 - 2025
+        - **[I.C.Humans](https://sites.google.com/view/ichumans/home)**: 2023 - 2025
         - **[ACTYS](https://actys.ims.forth.gr/)**: 2022 - 2024
       
     design:
