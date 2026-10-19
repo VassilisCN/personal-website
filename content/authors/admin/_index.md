@@ -51,11 +51,12 @@ profiles:
 interests:
   - Artificial Intelligence
   - Computational Vision
+  - Affective Computing
   - Vision-based Human-Computer Interaction
 
 education:
   - area: Ph.D. in Computer Science
-    institution: University of Crete
+    institution: Computer Science Department, University of Crete
     date_start: 2018-02-01
     date_end: 2025-02-01
     summary: |
@@ -67,7 +68,7 @@ education:
       url: uploads/PhD_Thesis_Nicodemou.pdf
 
   - area: M.Sc. in Computer Science and Computer Engineering
-    institution: University of Crete
+    institution: Computer Science Department, University of Crete
     date_start: 2015-02-01
     date_end: 2018-02-01
     summary: |
@@ -81,22 +82,31 @@ education:
       url: uploads/thesis.pdf
 
   - area: Computer Science Degree
-    institution: University of Crete
+    institution: Computer Science Department, University of Crete
     date_start: 2010-09-01
     date_end: 2015-02-01
     
 work:
-  - position: Postdoctoral Researcher
-    company_name: ICS - FORTH
-    company_url: www.ics.forth.gr
-    company_logo: icons/ics.png
-    date_start: 2026-01-01
+  - position: Adjunct Lecturer
+    company_name: Department of Management Science & Technology, Hellenic Mediterranean University
+    company_url: https://mst.hmu.gr
+    date_start: 2026-10-01
     date_end: ''
-    summary: |2-
+    summary: |
+      Teaching the course of Expert Systems
+
+  - position: Postdoctoral Researcher
+    company_name: HCCV Group at ICS - FORTH
+    company_url: www.ics.forth.gr/hccv
+    company_logo: icons/ics.png
+    date_start: 2025-02-01
+    date_end: ''
+    summary: |
+      Development of a Computer vision project for measurement and analysis of human-object interaction
       
   - position: Computer systems designer, analyst and programmer
-    company_name: ICS - FORTH
-    company_url: www.ics.forth.gr
+    company_name: HCCV Group at ICS - FORTH
+    company_url: www.ics.forth.gr/hccv
     company_logo: icons/ics.png
     date_start: 2025-01-01
     date_end: 2025-04-01
@@ -113,8 +123,8 @@ work:
       Evaluation and optimization of optical systems for smart, visual inspection of processes and evaluation of protocols based on visual information, which are used in a work and industrial environment. Contribution to the work unit EE4, aiming at the evaluation and optimization of the optical systems developed by the University of Crete, in the digital platform for dissemination of results, and in the actions for the sustainability of the network of excellence.
 
   - position: Graduate Research Assistant (Ph.D. student position)
-    company_name: ICS - FORTH
-    company_url: www.ics.forth.gr
+    company_name: HCCV Group at ICS - FORTH
+    company_url: www.ics.forth.gr/hccv
     company_logo: 'icons/ics.png'
     date_start: 2018-03-01
     date_end: 2024-12-31
@@ -133,8 +143,8 @@ work:
       For the following courses: CS-110 Calculus I, CS-111 Calculus II, CS-118 Discrete Mathematics, CS-150 Programming, CS-225 Computer Organization, CS-240 Data Structures, CS-672 Advanced Topics in Computational Vision.
 
   - position: Graduate Research Assistant (M.Sc. student position)
-    company_name: ICS - FORTH
-    company_url: www.ics.forth.gr
+    company_name: HCCV Group at ICS - FORTH
+    company_url: www.ics.forth.gr/hccv
     company_logo: 'icons/ics.png'
     date_start: 2015-03-01
     date_end: 2018-02-01
@@ -143,8 +153,8 @@ work:
       - Contribution to projects of the Computer Vision and Robotics Laboratory: Co4Robots
   
   - position: Undergraduate Research Assistant
-    company_name: ICS - FORTH
-    company_url: www.ics.forth.gr
+    company_name: HCCV Group at ICS - FORTH
+    company_url: www.ics.forth.gr/hccv
     company_logo: 'icons/ics.png'
     date_start: 2014-06-01
     date_end: 2015-02-01
@@ -219,4 +229,6 @@ skills:
 ---
 
 ## About Me
-I am currently a Postdoctoral Researcher at the [Computer Vision and Robotics Lab (CVRL)](https://www.ics.forth.gr/cvrl/) of the [Institute of Computer Science, FORTH](https://www.ics.forth.gr/), collaborating with [Prof. Antonis Argyros](https://ics.forth.gr/~argyros). My research interests include the domain of Artificial Neural Networks, Human Pose Estimation, and Vision-based Human-Computer Interaction.
+I am currently a Postdoctoral Researcher in the [Human-Centered Computer Vision (HCCV)](https://www.ics.forth.gr/hccv/) group, led by [Prof. Antonis Argyros](https://ics.forth.gr/~argyros), at the [Institute of Computer Science, FORTH](https://www.ics.forth.gr/).  I also serve as an Adjunct Lecturer at [Hellenic Mediterranean University](https://mst.hmu.gr/). 
+
+My research interests include artificial neural networks, stress estimation, human pose and body-part estimation, and vision-based human–computer interaction.

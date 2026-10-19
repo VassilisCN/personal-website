@@ -1,6 +1,7 @@
 ---
 title: Conditional Hand Image Generation using Latent Space Supervision in Random Variable Variational Autoencoders
 date: '2024-09-30'
+doi: '10.1007/978-3-031-91578-9_5'
 authors:
 - admin
 - Iason Oikonomidis

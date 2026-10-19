@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S | Vassilis C. Nicodemou</title>
+    <link>http://localhost:1313/~nikodim/tags/s/</link>
+      <atom:link href="http://localhost:1313/~nikodim/tags/s/index.xml" rel="self" type="application/rss+xml" />
+    <description>S</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/~nikodim/media/icon_hu_5b01a3c72805cea.png</url>
+      <title>S</title>
+      <link>http://localhost:1313/~nikodim/tags/s/</link>
+    </image>
+    
+    <item>
+      <title>Combining Facial Videos and Biosignals for Stress Estimation During Driving</title>
+      <link>http://localhost:1313/~nikodim/publication/valergaki-2026-stressdriving/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/~nikodim/publication/valergaki-2026-stressdriving/</guid>
+      <description>&lt;p&gt;We introduce a novel framework for generating photorealistic synthetic images of human hands conditioned to a precise pose annotation. We propose a supervised Random Variable Variational Autoencoder (SRV-VAE), a model that disentangles and encodes the appearance and pose of the hand into separate components of the latent space. Appearance, representing individual subject traits, is unsupervised. Hand pose is strictly supervised and yields control over the synthesis process. Leveraging the robust RV VAE variant, our architecture ensures stable training and accurate encoding of complex hand dynamics. Our model is capable of generating hand images of previously unseen hand poses for specific subjects. Experimental results indicate the model’s efficacy in synthesizing realistic and varied hand images, holding significant promise for advancements in both academic research and practical applications such as data upsampling, where accurate hand pose and texture data is critical.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

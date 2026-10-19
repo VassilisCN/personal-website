@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>Combining Facial Videos and Biosignals for Stress Estimation During Driving</title>
+      <link>https://users.ics.forth.gr/~nikodim/publication/valergaki-2026-stressdriving/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://users.ics.forth.gr/~nikodim/publication/valergaki-2026-stressdriving/</guid>
+      <description>&lt;p&gt;Reliable stress recognition is critical in applications such as medical monitoring and safety-critical systems, including real-world driving. While stress is commonly detected using physiological signals such as perinasal perspiration and heart rate, facial activity provides complementary cues that can be captured unobtrusively from video. We propose a multimodal stress estimation framework that combines facial videos and physiological signals, remaining effective even when biosignal acquisition is challenging. Facial behavior is represented using a dense 3D Morphable Model, yielding a 56-dimensional descriptor that captures subtle expression and head-pose dynamics over time. To investigate the correlation between stress and facial motions, we perform extensive experiments involving also physiological markers. Paired hypothesis tests between baseline and stressor phases show that 38 of 56 facial components exhibit consistent, phase-specific stress responses comparable to physiological markers. Building on these findings, we introduce a Transformer-based temporal modeling framework and evaluate unimodal, early-fusion, and cross-modal attention strategies. Combining 3D-derived facial features with physiological signals via cross-modal attention substantially improves performance over physiological signals alone, increasing AUROC from 52.7% and accuracy from 51.0% to 92.0% and 86.7%, respectively. Although evaluated on driving data, the proposed framework and protocol may readily generalize to other stress estimation settings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Refraction-Aware Structure from Motion for Airborne Bathymetry</title>
       <link>https://users.ics.forth.gr/~nikodim/publication/makris-2024-refraction/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>

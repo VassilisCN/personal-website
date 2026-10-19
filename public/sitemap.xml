@@ -2,11 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://users.ics.forth.gr/~nikodim/publication_types/article-journal/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <loc>https://users.ics.forth.gr/~nikodim/tags/artificial-inteligence/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://users.ics.forth.gr/~nikodim/tags/artificial-inteligence/</loc>
+    <loc>https://users.ics.forth.gr/~nikodim/publication/valergaki-2026-stressdriving/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/publication_types/paper-conference/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/publication_types/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/publication/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/tags/stress-estimation/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/tags/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://users.ics.forth.gr/~nikodim/publication_types/article-journal/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -14,19 +38,7 @@
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://users.ics.forth.gr/~nikodim/publication_types/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://users.ics.forth.gr/~nikodim/publication/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://users.ics.forth.gr/~nikodim/publication/makris-2024-refraction/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://users.ics.forth.gr/~nikodim/tags/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -35,10 +47,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://users.ics.forth.gr/~nikodim/tags/hand-pose/</loc>
-    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://users.ics.forth.gr/~nikodim/publication_types/paper-conference/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
